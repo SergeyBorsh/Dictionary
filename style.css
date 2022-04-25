@@ -1,0 +1,118 @@
+*{margin: 0; padding: 0;}
+
+html{
+    min-width: 71%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: rgb(175, 212, 236);
+}
+
+body {
+    position: relative;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    width: 70%;
+    background-color: rgb(139, 182, 238);
+    border: solid steelblue 2px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 98%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(77, 148, 206);
+    z-index: 2;
+}
+
+.left{
+    position: relative;
+    width: 58%;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 3%;
+    padding-right: 10%;
+}
+
+.right{
+    position: absolute;
+    width: 28%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+.checkbox, label {
+    position: relative;
+    transform: scale(2);
+    font-size: 24px;
+}
+label{margin-left: 10px;}
+#topSubmit input[type="submit"]{
+    float: right;
+    background-color: rgb(26, 80, 196);
+    width: 26%;
+    color: white;
+}
+#lowSubmit input[type="submit"]{
+    float: right;
+    background-color: rgb(26, 80, 196);
+    width: 12.5%;
+    color: white;
+}
+#sub2{margin-right: 0.5%;}
+#sub1{margin-left: 0.5%;}
+article{
+    position: relative;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 98%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(204, 228, 248);
+    z-index: 2;
+}
+
+article input{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#t1{
+    width: 100%;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+#t2, #t3{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+button{
+    margin-top: 10%;
+    width: 25%;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    height: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    left: 33%;
+    margin-left: 3%;
+    transform: translateX(-50%);
+}
